@@ -7,11 +7,12 @@
  
   
  img {
-	 width: 100%;	 
+	 width: 100%;
  }
  
  body {
-	 
+ 	height: 100%;
+    background: url(img/background.png) repeat;
  }
  
  @font-face {
@@ -31,7 +32,6 @@
  
  .wrapper {
 	 width: 80%;
-	 height: 100%;
 	 position: absolute;
 	 margin-left: auto;
      margin-right: auto;
@@ -67,7 +67,6 @@
  }
  
  #left_block {
-	 background: url(img/background.png) repeat;
 	 width: 50%;
  }
  
@@ -96,9 +95,8 @@
 	 flex-basis: 35%;
 	 margin: 4%;
  }
-  
+
  #right_block {
-	 background: url(img/background.png) repeat;
 	 width:50%;
 	 border-left: dashed 1px;
  }
@@ -189,5 +187,4 @@
 	 font-size: 1.35vw;
 	 font-family: 'HelveticaRegular';
  }
- 
  
